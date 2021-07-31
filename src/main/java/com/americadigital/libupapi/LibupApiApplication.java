@@ -1,0 +1,14 @@
+package com.americadigital.libupapi;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+
+@SpringBootApplication
+public class LibupApiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(LibupApiApplication.class, args);
+	}
+
+}
